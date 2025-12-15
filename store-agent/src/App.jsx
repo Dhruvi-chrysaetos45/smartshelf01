@@ -16,9 +16,8 @@ import {
   X
 } from 'lucide-react';
 
-// 🔴 STEP 1: PASTE YOUR VERCEL BACKEND LINK HERE (No trailing slash)
-// Example: const BACKEND_URL = "https://smartshelf-backend.vercel.app";
-const BACKEND_URL = "https://YOUR-VERCEL-BACKEND-LINK-HERE.vercel.app"; 
+// 🟢 FIXED: This is your actual Vercel Backend Link
+const BACKEND_URL = "https://smartshelf01.vercel.app";
 
 // 🏪 INITIAL DATA
 const INITIAL_ITEMS = [
@@ -424,10 +423,6 @@ function App() {
 }
 
 export default App;
-
-
-
-
 
 
 
