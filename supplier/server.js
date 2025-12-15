@@ -60,7 +60,8 @@ app.post('/buy-stock', async (req, res) => {
       paymentDetails: {
         amount: finalPrice,
         currency: "ETH",
-        destination: process.env.SUPPLIER_WALLET_ADDRESS,
+        destination: 0x43dc556230728db9892d2c5ff09cd8f3d1929dc6
+,
         invoiceId: `INV-${Date.now()}`
       }
     });
